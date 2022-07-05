@@ -1,0 +1,82 @@
+
+.statyas{
+  margin-top: 60px;
+  margin-left: 500px;
+  position:absolute;
+  
+}
+.statyas__st h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 21px;
+  /* identical to box height, or 100% */
+
+  padding-top: 60px;
+  color: #FFFFFF
+}
+
+.statya{
+  width: 600px;
+  height: auto;
+  margin-top: 30px;
+  background: #202020;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+}
+.statya__name h2{
+  padding-left: 26px;
+  padding-top: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+
+  color: #D2D2D2;
+}
+.statya__text p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  padding-left: 26px;
+  padding-right: 25px;
+  padding-top: 15px;
+  color: #D2D2D2;
+}
+.statya__date{
+  display: flex;
+}
+.statya__date p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 26px;
+  padding-top: 9px;
+  color: #828282;
+  padding-bottom: 25px;
+  }
+.statya__date a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  margin-left: auto;
+  padding-right: 25px;
+  color: #107EFF;
+  padding-top: 7px;
+  text-decoration: none;
+}

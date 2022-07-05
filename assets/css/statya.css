@@ -1,0 +1,111 @@
+
+.post{
+  width: 600px;
+  height: auto;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 60px;
+  background: #202020;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  
+}
+
+.set{
+  display: flex;
+
+}
+.set p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  margin-top: 16px;
+  
+  color: #FFFFFF;
+
+  opacity: 0.6;
+}
+.set a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  margin-top: 16px;
+  
+  color: #FFFFFF;
+
+  opacity: 0.6;
+}
+.left__set{
+  margin-left: auto;
+  margin-right: 18px;
+}
+.right__set{
+  margin-left: 25px;
+}
+.post__name h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 15px;
+  margin-left: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+
+
+  color: #FFFFFF;
+}
+.post__date{
+  display: flex;
+}
+.post__date p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  color: #828282;
+
+}
+.post__text{
+  margin-top: 30px;
+
+
+}
+.post__text p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+.post__text a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+.post__text img{
+  margin-left: 25px;
+  margin-top: 23px;
+}

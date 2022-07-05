@@ -1,0 +1,205 @@
+
+.block_storizs{
+    position: absolute;
+    margin-left: 500px;
+    display: flex;
+    margin-top: 75px;
+}
+.block_storiz{
+    width: 140px;
+    height: 195px;
+    background: green;
+    border-radius: 5px;
+    margin-left: 13px;
+}
+.name_storiz{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 14px;
+    padding-left: 17px;
+    color: #FFFFFF;
+}
+.date_storiz{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 140px;
+    padding-right: 17px;
+}
+.create_task{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 300px;
+}
+.create_task input{
+    width: 600px;
+    height: 74px;
+    background: #121212;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    padding-left: 28px;
+    color: #D2D2D2;
+}
+.senm{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    width: 120px;
+    height: 40px;
+    background: #3137C9;
+    box-shadow: 0px 7px 17px -10px rgba(32, 84, 219, 0.35);
+    border-radius: 25px;
+    transition: .3s;
+    border: none;
+}
+.senm:hover{
+    box-shadow: 0px 7px 15px 2px #3137C9;;
+    transition: .3s;
+}
+.foto{
+    width: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    height: 40px;
+    background: #ED3024;
+    box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
+    border-radius: 25px;
+    border: none;
+    margin-right: 20px;
+    transition: .3s; 
+}
+.foto:hover{
+    box-shadow: 0px 7px 15px 2px #ED3024;
+    transition: .3s;  
+}
+.task_but{
+    display: flex;
+    margin-top: 15px;
+}
+
+.posts{
+    width: 600px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 420px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post{
+    
+    width: 600px;
+    height: auto;
+    padding-bottom: 15px;
+    background: #202020;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.post_name h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    padding-left: 26px;
+    padding-top: 25px;
+    color: #FFFFFF
+}
+.post_text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    white-space: pre-wrap;
+    padding-left: 26px;
+    padding-top: 15px;
+    color: #D2D2D2;
+}
+.post_data p{
+    padding-left: 26px;
+    padding-top: 21px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #828282;
+}
+.post_data{
+    display: flex;
+}
+.m_l_t{
+    margin-left: 50px;
+}
+.read{
+    margin-top: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+
+    color: #107EFF;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+
+
+
+.block{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+}
+.block h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    padding-left: 26px;
+    padding-top: 25px;
+    color: #FFFFFF
+}
